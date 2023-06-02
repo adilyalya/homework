@@ -3,3 +3,9 @@ div{
     height: 250px;
     background-color: aqua;
 }
+.text-gradient {
+    background: linear-gradient(rgb(0, 72, 255), rgb(255, 0, 200));
+    font-size:25px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
